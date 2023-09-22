@@ -5,9 +5,9 @@ Project:    Image Classifier Project
 CopyRight:  Udacity.com
 Last modified:  22 September 2023
 How to run the script:
-        python predict.py flowers/test/58/image_02663.jpg checkpoint.pth --top_k 3 --category_names cat_to_name.json --gpu
+        python predict.py flowers/test/60/image_02978.jpg checkpoint.pth --top_k 3 --category_names cat_to_name.json --gpu
     OR: 
-        python predict.py flowers/test/58/image_02663.jpg checkpoint.pth --gpu
+        python predict.py flowers/test/60/image_02978.jpg checkpoint.pth --gpu
 
 """
 import argparse
